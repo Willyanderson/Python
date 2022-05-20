@@ -1,0 +1,7 @@
+print(40 * '\033[1;30m=\033[m')
+print('\033[1;34m{:^40}\033[m'.format('BOAS VINDAS'))
+print(40 * '\033[1;30m=\033[m')
+print()
+nome = input('- Qual é o seu nome? ')
+print()
+print('Olá, \033[1;34m{}\033[m! Seja bem vindo!'.format(nome))

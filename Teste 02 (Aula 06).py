@@ -1,0 +1,5 @@
+#n = int(input('Digite um valor: '))
+#n = float(input('Digite um valor: '))
+n = bool(input('Digite um valor: '))
+#n = str(input('Digite um valor: '))
+print(n)
